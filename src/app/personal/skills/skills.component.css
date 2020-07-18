@@ -1,0 +1,17 @@
+h1{
+  text-align: center;
+}
+
+.skill-chart{
+  width: 100vh;
+}
+
+.mat-card-cvr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills{
+  margin-top:15vh;
+  margin-bottom:5vh;
+}

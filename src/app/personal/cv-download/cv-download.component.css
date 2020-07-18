@@ -1,0 +1,12 @@
+.download-button:hover {
+  width: 100px;
+  border-bottom: 3px solid grey;
+}
+.download-button{
+  transition-property: width;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  width: 80px;
+  height: 50px;
+}
+

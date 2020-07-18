@@ -1,0 +1,32 @@
+<div class="sticky-header">
+  <a mat-button class="menu-button" href="#aboutme" (click)="topFunction()">About me</a>
+  <a mat-button class="menu-button" href="#skills">Skills</a>
+  <a mat-button class="menu-button" href="#career">Career</a>
+  <a mat-button class="menu-button" href="#hobbies">Hobbies</a>
+  <app-cv-download style="float:right;"></app-cv-download>
+</div>
+<div class="main-content">
+  <mat-grid-list cols="2" rowHeight="4:1">
+    <mat-grid-tile [colspan]="1"
+      [rowspan]="3">
+      <app-photo-me></app-photo-me>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1"
+      [rowspan]="1">
+      <app-name-header></app-name-header>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1"
+      [rowspan]="2">
+      <app-description></app-description>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+<div data-aos="fade" data-aos-duration="500">
+<div id="skills"></div>
+</div>
+<app-skills></app-skills>
+<div id="career"></div>
+<app-career></app-career>
+<div id="hobbies"></div>
+<app-hobbies></app-hobbies>
+<app-footer></app-footer>

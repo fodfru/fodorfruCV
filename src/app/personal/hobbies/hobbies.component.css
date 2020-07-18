@@ -1,0 +1,15 @@
+.mat-card-center {
+  display: flex;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+}
+
+.hobbies{
+  margin-top:20vh;
+  margin-bottom:5vh;
+}
+.hobbies-content{
+  width:75vh;
+}
